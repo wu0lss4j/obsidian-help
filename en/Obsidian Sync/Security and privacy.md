@@ -3,7 +3,6 @@ aliases:
   - Security/privacy for Obsidian Sync
   - Access control for Obsidian Sync
 ---
-
 ## Encryption
 
 For your safety, [[Introduction to Obsidian Sync|Obsidian Sync]] encrypts your [[Local and remote vaults|remote vault]] and all communication with Obsidian's servers. Before anyone can access your remote vault, they first need to decrypt it with an _encryption password_.
@@ -45,6 +44,10 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 4. Wait for your primary device to sync. Watch the sync indicator at the bottom right of the screen until it displays a green checkmark.
 5. Connect each of your device to the same newly created remote vault. When connecting, you will be shown a warning about vault merging, this is expected and you can proceed. Wait for each device to fully sync before moving onto the next. This reduces the chances of issues.
 6. Now all your devices should be connected to the new remote vault.
+
+### Can I verify that my data is end-to-end encrypted?
+
+Yes! See our guide, [how to verify Obsidian Sync's end-to-end encryption](https://obsidian.md/blog/verify-obsidian-sync-encryption/). This guide provide step-by-step instructions for you to trustlessly verify the end-to-end encryption of your data when it is sent and received via Sync servers.
 
 ## Hosting
 ### Where do you host the servers for Obsidian Sync?
